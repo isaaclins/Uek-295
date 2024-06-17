@@ -1,0 +1,135 @@
+{
+    "info": {
+        "name": "Book API Tests",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET /books",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{url}}/books",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET /books/:isbn",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{url}}/books/978-3-16-148410-0",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books",
+                        "978-3-16-148410-0"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST /books",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"isbn\": \"978-3-16-148529-9\",\"title\": \"The Alchemist\",\"year\": 1988,\"author\": \"Paulo Coelho\"}"
+                },
+                "url": {
+                    "raw": "{{url}}/books",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PUT /books/:isbn",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"isbn\": \"978-3-16-148529-9\",\"title\": \"The Alchemist\",\"year\": 1988,\"author\": \"Paulo Coelho\"}"
+                },
+                "url": {
+                    "raw": "{{url}}/books/978-3-16-148529-9",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books",
+                        "978-3-16-148529-9"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE /books/:isbn",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "{{url}}/books/978-3-16-148529-9",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books",
+                        "978-3-16-148529-9"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PATCH /books/:isbn",
+            "request": {
+                "method": "PATCH",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"title\": \"The Alchemist Updated\"}"
+                },
+                "url": {
+                    "raw": "{{url}}/books/978-3-16-148529-9",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "books",
+                        "978-3-16-148529-9"
+                    ]
+                }
+            }
+        }
+    ]
+}

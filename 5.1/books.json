@@ -1,0 +1,62 @@
+[
+    {
+        "isbn": "978-3-16-148410-0",
+        "title": "To Kill a Mockingbird",
+        "year": 1960,
+        "author": "John Doe"
+    },
+    {
+        "isbn": "978-3-16-148411-7",
+        "title": "1984",
+        "year": 1949,
+        "author": "Jane Doe"
+    },
+    {
+        "isbn": "978-3-16-148509-1",
+        "title": "The Great Gatsby",
+        "year": 1925,
+        "author": "Alice Doe"
+    },
+    {
+        "isbn": "978-3-16-148510-7",
+        "title": "Moby Dick",
+        "year": 1851,
+        "author": "Bob Doe"
+    },
+    {
+        "isbn": "978-3-16-148512-1",
+        "title": "Pride and Prejudice",
+        "year": 1813,
+        "author": "Jane Austen"
+    },
+    {
+        "isbn": "978-3-16-148513-8",
+        "title": "The Catcher in the Rye",
+        "year": 1951,
+        "author": "J.D. Salinger"
+    },
+    {
+        "isbn": "978-3-16-148515-2",
+        "title": "The Hobbit",
+        "year": 1937,
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "isbn": "978-3-16-148517-6",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "year": 1997,
+        "author": "J.K. Rowling"
+    },
+    {
+        "isbn": "978-3-16-148524-4",
+        "title": "The Da Vinci Code",
+        "year": 2003,
+        "author": "Dan Brown"
+    },
+    {
+        "isbn": "978-3-16-148529-9",
+        "title": "The Alchemist",
+        "year": 1988,
+        "author": "Paulo Coelho"
+    }
+]
