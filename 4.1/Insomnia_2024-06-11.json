@@ -1,0 +1,263 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-06-11T07:16:28.976Z",
+    "__export_source": "insomnia.desktop.app:v2023.5.8",
+    "resources": [
+      {
+        "_id": "req_39cd3f7ae6424243a7bf3f6279921b95",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718087650997,
+        "created": 1718087009382,
+        "url": "https://www.zli.ch/",
+        "name": "zli",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1718087636455,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "parentId": "wrk_18583febc62a4a4c99c75778f14a1bb0",
+        "modified": 1718087632137,
+        "created": 1718087632137,
+        "name": "4.1",
+        "description": "",
+        "environment": {},
+        "environmentPropertyOrder": null,
+        "metaSortKey": -1718087632137,
+        "_type": "request_group"
+      },
+      {
+        "_id": "wrk_18583febc62a4a4c99c75778f14a1bb0",
+        "parentId": null,
+        "modified": 1718086815335,
+        "created": 1718086815335,
+        "name": "ük",
+        "description": "",
+        "scope": "collection",
+        "_type": "workspace"
+      },
+      {
+        "_id": "req_3f6c04409df34801aa27bc67a3a15130",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718087875511,
+        "created": 1718087662803,
+        "url": "https://www.zli.ch/404",
+        "name": "404",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1712143316064,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_ee5f0d2d933d4924aac6434f12b42180",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718087905999,
+        "created": 1718087672450,
+        "url": "https://picsum.photos/2000",
+        "name": "image",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1709171155868.5,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_200d6ad861244f33bef6771a5e935201",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718088030294,
+        "created": 1718087680982,
+        "url": "https://pokeapi.co/api/v2/pokemon/dragonite",
+        "name": "pokemon",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1707685075770.75,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_6b6c58ff7ea742178d640ed3cdd19bce",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718088150433,
+        "created": 1718087809665,
+        "url": "https://cat-fact.herokuapp.com/facts",
+        "name": "catfact",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1706942035721.875,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_3195d338d39c461881ea454e355b4536",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718088266436,
+        "created": 1718087827853,
+        "url": "https://jsonplaceholder.typicode.com/posts/",
+        "name": "jsonplaceholder",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/2023.5.8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1706570515697.4375,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_a42d197b2e28445595cd564ff78450e2",
+        "parentId": "fld_f9388c242b1f4697b564f24bb0a71f9b",
+        "modified": 1718088515743,
+        "created": 1718088488793,
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "name": "examplepostrequest",
+        "description": "",
+        "method": "POST",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\"title\":\"foo\",\"body\":\"bar\",\"userId\":1}"
+        },
+        "parameters": [],
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json; charset=UTF-8"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1706570515647.4375,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "env_f3a8684397c9262b28a2cae5dbfab0f2d110fba6",
+        "parentId": "wrk_18583febc62a4a4c99c75778f14a1bb0",
+        "modified": 1718088384880,
+        "created": 1718086815344,
+        "name": "Base Environment",
+        "data": {},
+        "dataPropertyOrder": {},
+        "color": null,
+        "isPrivate": false,
+        "metaSortKey": 1718086815344,
+        "_type": "environment"
+      },
+      {
+        "_id": "jar_f3a8684397c9262b28a2cae5dbfab0f2d110fba6",
+        "parentId": "wrk_18583febc62a4a4c99c75778f14a1bb0",
+        "modified": 1718088113637,
+        "created": 1718086815347,
+        "name": "Default Jar",
+        "cookies": [
+          {
+            "key": "connect.sid",
+            "value": "s%3A1QJqJsCmJH_cfMeM6BORUQXU3jpiq8xY.49iXvATv%2BLOWZ8WUcaZ0Ceu%2BulZMiDseVkQsaUnREh8",
+            "domain": "cat-fact.herokuapp.com",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2024-06-11T06:41:53.636Z",
+            "lastAccessed": "2024-06-11T06:41:53.636Z",
+            "id": "46006677097964"
+          }
+        ],
+        "_type": "cookie_jar"
+      }
+    ]
+  }
